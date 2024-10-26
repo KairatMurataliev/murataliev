@@ -1,0 +1,33 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    background: var(--first-color);
+    color: #fff;
+    padding: 1.15rem 1.5rem;
+    border-radius: .5rem;
+    transition: .3s;
+    box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+}
+
+.button i {
+    font-size: 1.23rem;
+}
+
+.button:hover {
+    background: var(--first-color-alt);
+}
+
+.button__small {
+    padding: .75rem;
+    box-shadow: none;
+}
+
+.button__gray {
+    background: var(--text-color-lighten);
+    color: var(--title-color);
+}
+
+.button__gray:hover {
+    background: var(--text-color-light);
+}
